@@ -1,0 +1,39 @@
+﻿@model List<netdemo20252.Models.Pelicula>
+@{
+    ViewData["Title"] = "Películas";
+    var categoriaSeleccionada = ViewBag.CategoriaSeleccionada as string;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenidos a NalaPelis</h1>
+</div>
+
+<form method="get" action="" style="margin-bottom: 20px;">
+    <label for="categoria">Filtrar por categoría:</label>
+    <select id="categoria" name="categoria" class="form-select" style="width:200px; display:inline-block;">
+        <option value="" selected="@(string.IsNullOrEmpty(categoriaSeleccionada) ? "selected" : null)">Todas</option>
+        <option value="Accion" selected="@(categoriaSeleccionada == "Accion" ? "selected" : null)">Acción</option>
+        <option value="Comedia" selected="@(categoriaSeleccionada == "Comedia" ? "selected" : null)">Comedia</option>
+        <option value="Terror" selected="@(categoriaSeleccionada == "Terror" ? "selected" : null)">Terror</option>
+        <option value="Romance" selected="@(categoriaSeleccionada == "Romance" ? "selected" : null)">Romance</option>
+    </select>
+    <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+<div class="row">
+@foreach (var pelicula in Model)
+{
+    <div class="col-md-3 mb-4">
+        <div class="card">
+            <img src="@pelicula.ImagenUrl" class="card-img-top" alt="@pelicula.Titulo">
+            <div class="card-body">
+                <h5 class="card-title">@pelicula.Titulo</h5>
+                <p class="card-text">@pelicula.FechaEstreno</p>
+                <span class="badge @(pelicula.Categoria == "Comedia" ? "bg-warning text-dark" : pelicula.Categoria == "Romance" ? "bg-warning text-dark" : pelicula.Categoria == "Terror" ? "bg-danger" : "bg-danger")">
+                    @pelicula.Categoria
+                </span>
+            </div>
+        </div>
+    </div>
+}
+</div>
