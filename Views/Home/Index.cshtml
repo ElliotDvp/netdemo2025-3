@@ -4,9 +4,36 @@
     var categoriaSeleccionada = ViewBag.CategoriaSeleccionada as string;
 }
 
+<style>
+    body {
+        background: url('https://img.freepik.com/foto-gratis/collaje-fondo-pelicula_23-2149876003.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0, 0, 0, 0.6); 
+        z-index: -1;
+    }
+    .card {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: white;
+    }
+        .titulo-principal {
+        color: yellow;
+    }
+</style>
+
+
 <div class="text-center">
-    <h1 class="display-4">Bienvenidos a NalaPelis</h1>
+    <h1 class="display-4 titulo-principal">Bienvenidos a NalaPelis</h1>
 </div>
+
 
 <form method="get" action="" style="margin-bottom: 20px;">
     <label for="categoria">Filtrar por categoría:</label>

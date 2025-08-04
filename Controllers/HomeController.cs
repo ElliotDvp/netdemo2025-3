@@ -12,7 +12,15 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
+    [HttpPost]
+    public IActionResult Registrar(Sugerencia sugerencia)
+    {
+    if (!ModelState.IsValid)
+    {
+        return View("Privacy", sugerencia);
+    }
+    return View("Gracias");
+}
     private static List<Pelicula> peliculas = new List<Pelicula>
         {
             new Pelicula { Id = 1, Titulo = "Progeny", Categoria = "Accion", ImagenUrl = "https://pics.filmaffinity.com/Progeny-920747078-large.jpg", FechaEstreno = "28 oct 2025" },
@@ -39,7 +47,7 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
-        return View();
+        return View(new Sugerencia());
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

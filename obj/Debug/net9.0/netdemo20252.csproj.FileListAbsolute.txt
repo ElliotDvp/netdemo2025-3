@@ -83,8 +83,6 @@ E:\programacion\progra\netdemo20252\obj\Debug\net9.0\compressed\eng7h72gxg-2z0ns
 E:\programacion\progra\netdemo20252\obj\Debug\net9.0\compressed\p0xbvez21s-muycvpuwrr.gz
 E:\programacion\progra\netdemo20252\obj\Debug\net9.0\compressed\af1nv5kb0f-87fc7y1x7t.gz
 E:\programacion\progra\netdemo20252\obj\Debug\net9.0\compressed\kuj814fg2y-mlv21k5csn.gz
-E:\programacion\progra\netdemo20252\obj\Debug\net9.0\compressed\fvqs897fs6-o1kz95gklo.gz
-E:\programacion\progra\netdemo20252\obj\Debug\net9.0\compressed\1075r82rxt-o1kz95gklo.gz
 E:\programacion\progra\netdemo20252\obj\Debug\net9.0\staticwebassets.build.json
 E:\programacion\progra\netdemo20252\obj\Debug\net9.0\staticwebassets.build.json.cache
 E:\programacion\progra\netdemo20252\obj\Debug\net9.0\staticwebassets.development.json
@@ -94,3 +92,6 @@ E:\programacion\progra\netdemo20252\obj\Debug\net9.0\refint\netdemo20252.dll
 E:\programacion\progra\netdemo20252\obj\Debug\net9.0\netdemo20252.pdb
 E:\programacion\progra\netdemo20252\obj\Debug\net9.0\netdemo20252.genruntimeconfig.cache
 E:\programacion\progra\netdemo20252\obj\Debug\net9.0\ref\netdemo20252.dll
+E:\programacion\progra\netdemo20252\obj\Debug\net9.0\netdemo20252.sourcelink.json
+E:\programacion\progra\netdemo20252\obj\Debug\net9.0\compressed\fvqs897fs6-7641769emj.gz
+E:\programacion\progra\netdemo20252\obj\Debug\net9.0\compressed\1075r82rxt-7641769emj.gz

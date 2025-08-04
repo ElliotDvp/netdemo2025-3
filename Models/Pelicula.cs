@@ -1,4 +1,3 @@
-using System.ComponentModel.DataAnnotations;
 
 namespace netdemo20252.Models;
 public class Pelicula
