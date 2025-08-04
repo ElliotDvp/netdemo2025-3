@@ -23,7 +23,7 @@ public class HomeController : Controller
 }
     private static List<Pelicula> peliculas = new List<Pelicula>
         {
-            new Pelicula { Id = 1, Titulo = "Progeny", Categoria = "Accion", ImagenUrl = "https://pics.filmaffinity.com/Progeny-920747078-large.jpg", FechaEstreno = "28 oct 2025" },
+            new Pelicula { Id = 1, Titulo = "Progeny", Categoria = "Accion", ImagenUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVZl3fyM_oEOG0T16RCwkp2BEVv2Wzyxd9zw&s", FechaEstreno = "28 oct 2025" },
             new Pelicula { Id = 2, Titulo = "Minecraft", Categoria = "Comedia", ImagenUrl = "https://xl.movieposterdb.com/25_05/2025/3566834/xl_a-minecraft-movie-movie-poster_d831add0.jpg", FechaEstreno = "4 abril 2025" },
             new Pelicula { Id = 3, Titulo = "Relative Danger", Categoria = "Accion", ImagenUrl = "https://www.studiotf1america.com/wp-content/uploads/2025/07/55720_RELATIVE_DANGER-scaled.jpg", FechaEstreno = "19 sep 2025" },
             new Pelicula { Id = 4, Titulo = "Trust Her If You Dare", Categoria = "Accion", ImagenUrl = "https://www.studiotf1america.com/wp-content/uploads/2025/07/trust.png", FechaEstreno = "29 ago 2025" },
